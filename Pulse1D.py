@@ -185,7 +185,7 @@ plt.xlabel("Distance (x/L)")
 plt.colorbar()
 plt.title("Actin mesh density",pad=20)
 plt.yticks([0,1000,2000,3000,4000,5000],[0,1,2,3,4,5])
-plt.xticks([0,200,400,600,800,1000],[0,0.2,0.4,0.6,0.8,1])
+#plt.xticks([0,200,400,600,800,1000],[0,0.2,0.4,0.6,0.8,1])
 plt.show()
     
    
@@ -197,7 +197,7 @@ plt.xlabel("Distance (x/L)")
 plt.colorbar()
 plt.title("Bound myosin density",pad=20)
 plt.yticks([0,1000,2000,3000,4000,5000],[0,1,2,3,4,5])
-plt.xticks([0,200,400,600,800,1000],[0,0.2,0.4,0.6,0.8,1])
+#plt.xticks([0,200,400,600,800,1000],[0,0.2,0.4,0.6,0.8,1])
 plt.show()
  
 
