@@ -3,7 +3,7 @@
 """
 Created on Mon Mar 15 18:50:18 2021
 
-@author: thibautgold
+@author: Thibaut Goldsborough
 """
 
 #%matplotlib auto
