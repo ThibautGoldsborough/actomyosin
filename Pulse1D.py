@@ -5,14 +5,14 @@ import matplotlib.pyplot as plt
 fenics.set_log_level(40)
 
 
-#boundary_type='Neumann'
-boundary_type='Dirichlet'
+boundary_type='Neumann'
+#boundary_type='Dirichlet'
 #boundary_type='Periodic'
 
 
 
-T = 2 # final time
-num_steps = T*200 # number of time steps 
+T = 5 # final time
+num_steps = T*1000 # number of time steps 
 dt = T / num_steps
 
 mesh = fenics.IntervalMesh(1000,0.0,1.0)
